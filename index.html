@@ -9,8 +9,6 @@
 </head>
 
 <body>
-</body>
-
 <script type="text/javascript">
 var storedState = localStorage.getItem('elm-todo-state');
 var startingState = storedState ? JSON.parse(storedState) : null;
@@ -30,5 +28,5 @@ todomvc.ports.setStorage.subscribe(function(state) {
 });
 
 </script>
-
+</body>
 </html>
